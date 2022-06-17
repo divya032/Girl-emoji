@@ -1,0 +1,87 @@
+@keyframes mymove {
+  25% {
+    border-radius: 7px 7px 100px 100px;
+  }
+  50% {
+    border-radius: 7px 7px 200px 200px;
+  }
+  75% {
+    border-radius: 7px 7px 300px 300px;
+  }
+  100% {
+    border-radius: 200px 200px 700px 600px;
+  }
+}
+
+#hair {
+  background-color: rgb(70, 18, 33);
+  display: inline;
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  top: 150px;
+  left: 170px;
+  border-top-left-radius: 400px 600px;
+  border-top-right-radius: 400px 600px;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+#face {
+  background-color: rgb(253, 247, 130);
+  display: inline;
+  position: absolute;
+  width: 200px;
+  height: 160px;
+  top: 270px;
+  left: 220px;
+  border-top-left-radius: 400px 600px;
+  border-top-right-radius: 400px 600px;
+  border-bottom-right-radius: 100px 100px;
+  border-bottom-left-radius: 100px 100px;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
+.eyes {
+  background-color: rgb(70, 18, 33);
+  width: 25px;
+  height: 30px;
+  top: 290px;
+  left: 260px;
+  position: absolute;
+  display: inline-block;
+  border-radius: 50px;
+  z-index: 2;
+}
+
+#rightEye {
+  left: 350px;
+}
+
+.nose {
+  background-color: rgb(70, 18, 33);
+  width: 25px;
+  height: 30px;
+  top: 330px;
+  left: 306px;
+  position: absolute;
+  display: inline-block;
+  border-radius: 90%/70px 60px 10px 10px;
+  z-index: 2;
+}
+
+.lips {
+  width: 65px;
+  height: 25px;
+  position: absolute;
+  display: inline-block;
+  top: 380px;
+  left: 285px;
+  background-color: rgb(241, 37, 146);
+  border-radius: 7px 7px 200px 200px;
+  z-index: 2;
+  animation-name: mymove;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+}
