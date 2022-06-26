@@ -1,4 +1,4 @@
-/* @keyframes mymove {
+@keyframes mymove {
   25% {
     border-radius: 7px 7px 100px 100px;
   }
@@ -11,7 +11,7 @@
   100% {
     border-radius: 200px 200px 700px 600px;
   }
-} */
+}
 
 #hair {
   background-color: rgb(70, 18, 33);
@@ -69,7 +69,7 @@
   background-color: rgb(241, 37, 146);
   border-radius: 7px 7px 200px 200px;
   z-index: 2;
-/*   animation-name: mymove;
+  animation-name: mymove;
   animation-duration: 0.3s;
-  animation-iteration-count: infinite; */
+  animation-iteration-count: infinite;
 }
