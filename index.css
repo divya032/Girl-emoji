@@ -1,4 +1,4 @@
-@keyframes mymove {
+/* @keyframes mymove {
   25% {
     border-radius: 7px 7px 100px 100px;
   }
@@ -11,7 +11,7 @@
   100% {
     border-radius: 200px 200px 700px 600px;
   }
-}
+} */
 
 #hair {
   background-color: rgb(70, 18, 33);
@@ -59,18 +59,6 @@
   left: 350px;
 }
 
-.nose {
-  background-color: rgb(70, 18, 33);
-  width: 25px;
-  height: 30px;
-  top: 330px;
-  left: 306px;
-  position: absolute;
-  display: inline-block;
-  border-radius: 90%/70px 60px 10px 10px;
-  z-index: 2;
-}
-
 .lips {
   width: 65px;
   height: 25px;
@@ -81,7 +69,7 @@
   background-color: rgb(241, 37, 146);
   border-radius: 7px 7px 200px 200px;
   z-index: 2;
-  animation-name: mymove;
+/*   animation-name: mymove;
   animation-duration: 0.3s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 }
